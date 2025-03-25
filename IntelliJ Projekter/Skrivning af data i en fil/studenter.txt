@@ -1,0 +1,2 @@
+Anna,22,Datalogi
+Mikkel,24,Maskinlæring

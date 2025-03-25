@@ -1,0 +1,177 @@
+.banner,
+.floatingprice,
+.wizardbtnnext,
+.wizardbtnconfirm,
+.wizardbtnnext:hover,
+.wizardbtnconfirm:hover,
+.wizardbtnnext:focus,
+.wizardbtnconfirm:focus,
+.wizardbtnnext:active,
+.wizardbtnconfirm:active {
+    background-color: #173150 !important;
+    border-color: #142c48 !important;
+}
+
+.bgc-topcolor {
+    background-color: #173150 !important;
+    color: #fff !important;
+}
+
+.bc-topcolor {
+    border-color: #142c48 !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media (print), (min-width:480px) {
+    .hidden-xs.visible-print {
+        display: block !important;
+    }
+
+    a.hidden-xs.visible-print,
+    b.hidden-xs.visible-print,
+    i.hidden-xs.visible-print,
+    small.hidden-xs.visible-print,
+    abbr.hidden-xs.visible-print,
+    strong.hidden-xs.visible-print,
+    br.hidden-xs.visible-print,
+    img.hidden-xs.visible-print,
+    span.hidden-xs.visible-print,
+    sub.hidden-xs.visible-print,
+    sup.hidden-xs.visible-print,
+    button.hidden-xs.visible-print,
+    input.hidden-xs.visible-print,
+    label.hidden-xs.visible-print,
+    select.hidden-xs.visible-print,
+    textarea.hidden-xs.visible-print {
+        display: inline !important;
+    }
+
+    table.hidden-xs.visible-print {
+        display: table !important;
+    }
+
+    tr.hidden-xs.visible-print {
+        display: table-row !important;
+    }
+
+    td.hidden-xs.visible-print,
+    th.hidden-xs.visible-print {
+        display: table-cell !important;
+    }
+
+    .hidden-xs.visible-print {
+        display: block !important;
+    }
+
+    .hidden-sm.visible-print {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .hidden-xs.visible-print {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width:767px) {
+
+    .hidden-sm.visible-print {
+        display: block !important;
+    }
+
+    td.hidden-sm.visible-print,
+    th.hidden-sm.visible-print {
+        display: table-cell !important;
+    }
+}
+
+.roll-out {
+    cursor: pointer;
+}
+
+.subRow {
+    display: none;
+}
+
+.table tbody tr.subRow th {
+    border: none;
+}
+
+.roll-out .gameplan-result div.inner {
+    position: relative;
+    overflow: hidden;
+}
+
+    .roll-out .gameplan-result div.inner:before {
+        background-position: center right;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 11px;
+        background-repeat: no-repeat;
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAALCAYAAACQy8Z9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkRERjZFNDlEQjZBRDExRTBBNjc0RjBFOTUyQ0Q2MUM3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkRERjZFNDlFQjZBRDExRTBBNjc0RjBFOTUyQ0Q2MUM3Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RERGNkU0OUJCNkFEMTFFMEE2NzRGMEU5NTJDRDYxQzciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RERGNkU0OUNCNkFEMTFFMEE2NzRGMEU5NTJDRDYxQzciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5uTZSwAAAAeUlEQVR42mL8n8agxcDAYMNARcACxHeAuB2I/ahkZjoT4yyGX0BGKBBvooaBQPNmMYFYVDIYbCCIwQQTodBguIEohlJgMIqBGIaSYTCGgVgNJcFgrAbiNJQIg3EaiNdQPAbjNRCsj5iYAOY6NiC1Goi3EjIQBAACDAC1aym6meLRbQAAAABJRU5ErkJggg==');
+    }
+
+.roll-out .gameplan-result.open div.inner:before {
+    background-position: center left;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+tr.participant > td {
+    border-top: 0 !important;
+    color: #999;
+    padding-top: 0 !important;
+    font-size: .9em;
+}
+
+.table-striped .firstrow td {
+    background: #fff !important;
+}
+
+.table-striped .secondrow td {
+    background: #f9f9f9 !important;
+}
+
+tr.participant .gameplan {
+    margin: 0 -8px;
+    background: none;
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .participant1, .participant2 {
+        max-width: 65px;
+    }
+
+    .gameplan-runde, .gameplan-runde-input, .gameplan-række, .gameplan-række-input, .gameplan-stadiumname-input, .gameplan-stadiumname {
+        display: none;
+    }
+
+    .dateandtime {
+        max-width: 45px;
+    }
+
+    .team-name {
+        max-width: 65px;
+    }
+}
+
+@media (max-width: 767px) {
+    .roll-out .gameplan-result div.inner {
+        color: white;
+    }
+}
+
+@media(min-width: 501px) {
+    .gameplan-result {
+        min-width: 40px;
+    }
+}

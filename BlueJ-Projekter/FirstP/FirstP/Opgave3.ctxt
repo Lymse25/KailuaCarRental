@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Opgave3
+comment0.text=\n\ Write\ a\ description\ of\ class\ opgave2\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=text
+comment2.target=void\ udskrivHverAndenBogstav(java.lang.String)
+numComments=3
